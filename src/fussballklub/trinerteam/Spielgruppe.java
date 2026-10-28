@@ -11,6 +11,7 @@ public class Spielgruppe {
 	public Spielgruppe(ArrayList<Mannschaft> spieler) {
 		super();
 		this.spieler = spieler;
+		
 	}
 
 	public void addSpieler(Mannschaft neueSpieler) {
@@ -24,6 +25,12 @@ public class Spielgruppe {
 	}
 	
 	
+
+	
+
+	public String getTrainerTeamName() {
+		return trainerTeamName;
+	}
 
 	public void setTrainerTeamName(String trainerTeamName) {
 		this.trainerTeamName = trainerTeamName;
