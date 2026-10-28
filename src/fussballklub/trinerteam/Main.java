@@ -18,12 +18,12 @@ public class Main {
 		System.out.println("=== Trainer ===");
 		System.out.println("Trainername: " + defGruppe.getTrainerTeamName());
 		System.out.println("=== Kapitän ===");
-        System.out.println("Kapitän: " + defGruppe.getKapitän());
+        System.out.println(defGruppe.getKapitän());
 		System.out.println("=== Spieler ===");
-		System.out.println("Spieler:");
+		
 
 		for (Mannschaft spieler : defGruppe.getSpieler()) {
-			System.out.println(" " + spieler);
+			System.out.println(spieler);
 		}
 	}
 

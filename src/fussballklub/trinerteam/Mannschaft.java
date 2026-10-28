@@ -38,8 +38,8 @@ public class Mannschaft {
 
 	@Override
 	public String toString() {
-		return " Vorname = " + vorname + ", Name = " + name + ", Geburtsdatum = " + geburtsdatum + ", Rolle = "
-				+ rolle + ", NummerSpieler = " + nummerSpieler;
+		return "Vorname: " + vorname + ", Name: " + name + ", Geburtsdatum: " + geburtsdatum + ", Rolle: "
+				+ rolle + ", NummerSpieler: " + nummerSpieler;
 	}
 
 

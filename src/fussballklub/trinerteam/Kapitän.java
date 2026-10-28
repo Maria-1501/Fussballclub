@@ -8,7 +8,7 @@ public class Kapitän extends Mannschaft {
 
 	@Override
 	public String toString() {
-		return "Kapitän " + super.toString();
+		return "Kapitän; " + super.toString();
 	}
 	
 
